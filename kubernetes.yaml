@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: app-time-api
+        namespace: app-time
     spec:
       containers:
       - name: app-time-api
